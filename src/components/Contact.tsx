@@ -59,7 +59,7 @@ const Contact = () => {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-4 bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-full shadow-lg hover:shadow-2xl transition duration-500 flex flex-col items-center justify-center gap-2 hover:-translate-y-48 hover:dark:-translate-y-4"
+              className="p-4 bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-full shadow-lg hover:shadow-2xl transition duration-500 flex flex-col items-center justify-center gap-2 hover:-translate-y-4"
             >
               <div className="text-2xl">{link.icon}</div>
               <span className="text-xs md:text-sm">{link.tag}</span>
